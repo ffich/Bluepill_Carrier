@@ -10,7 +10,7 @@ The goal of this board is to provide a **feature-rich development platform** wit
 
 ### On-board Peripherals
 - 10 × Status / debug LEDs  
-- 2 × User buttons  
+- 3 × User buttons  
 - 1 × Wake-up button  
 - 1 × Analog potentiometer  
 - Buzzer  
