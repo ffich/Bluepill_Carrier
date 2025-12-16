@@ -9,7 +9,7 @@ The goal of this board is to provide a **feature-rich development platform** wit
 ## ✨ Key Features
 
 ### On-board Peripherals
-- 6 × Status / debug LEDs  
+- 10 × Status / debug LEDs  
 - 2 × User buttons  
 - 1 × Wake-up button  
 - 1 × Analog potentiometer  
@@ -27,7 +27,7 @@ The goal of this board is to provide a **feature-rich development platform** wit
 - External **RTC** socket  
 - **BME280** environmental sensor socket  
 
-<img width="1011" height="802" alt="image" src="https://github.com/user-attachments/assets/b79cc416-d078-468b-9902-4fdffcc7b7fd" />
+<img width="680" height="554" alt="image" src="https://github.com/user-attachments/assets/5a18391b-f6b6-4159-a3b6-addf1fd4a2d9" />
 
 ---
 
