@@ -1,0 +1,19 @@
+Bluepill carrier requirements
+
+Base Peripherals:
+- 6x LEDs						x
+- 2x Buttons					x
+- 1x Wakeup button				x	
+- 1x Potentiometers				x
+- CAN transceiver (TJA1051T3)	x
+- RS485 transceiver				x
+- USB/Serial					x
+- SPI EEPROM					x
+- I2C OLED						x
+- Buzzer						x
+- LM35							x
+
+Sockets:
+- External RTC					x
+- BME280						x
+

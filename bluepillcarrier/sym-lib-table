@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "blackpill")(type "Legacy")(uri "${KIPRJMOD}/symbols/YAAJ_BlackPill_Part_Like.lib")(options "")(descr ""))
+  (lib (name "bluepill")(type "Legacy")(uri "${KIPRJMOD}/symbols/YAAJ_BluePill_Part_Like_SWD_Breakout.lib")(options "")(descr ""))
+)
