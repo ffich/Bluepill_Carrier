@@ -6582,6 +6582,16 @@
 		)
 		(uuid "573419ea-873e-4c28-a247-6bc84c92f6d9")
 	)
+	(text "RTC Slave Address: 0x68\nBME Slave Address: 0x77"
+		(exclude_from_sim no)
+		(at 345.694 189.992 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "85e51900-d6c2-4f09-8f8d-9b183dc1b40e")
+	)
 	(text "Alternative JLCPCB part: C709357\nOriginal: C165948"
 		(exclude_from_sim no)
 		(at 107.95 254 0)
@@ -6592,6 +6602,16 @@
 			(justify right bottom)
 		)
 		(uuid "ca73c843-9ed7-42c6-92cd-baf9c660acbd")
+	)
+	(text "Slave Address: 0x60"
+		(exclude_from_sim no)
+		(at 187.452 142.24 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "e05bb114-9e53-4a1f-967b-ad3c6c4b5218")
 	)
 	(text_box "WKUP"
 		(exclude_from_sim no)
@@ -7114,6 +7134,16 @@
 			(type default)
 		)
 		(uuid "076a983d-3f3b-4491-82ef-c4ca80644bf5")
+	)
+	(wire
+		(pts
+			(xy 69.85 213.36) (xy 71.12 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07834f07-c09f-4d81-a88a-c09769b3834a")
 	)
 	(wire
 		(pts
@@ -12184,6 +12214,16 @@
 		)
 		(uuid "0c6d7260-b6d9-4920-88e9-91764974f993")
 	)
+	(label "5V"
+		(at 132.08 158.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e19d566-d555-44c8-8c36-d693f0d67864")
+	)
 	(label "TX3"
 		(at 335.28 109.22 0)
 		(effects
@@ -12323,16 +12363,6 @@
 			(justify right bottom)
 		)
 		(uuid "30842e67-3629-4a02-984e-4be7443a0151")
-	)
-	(label "3V3"
-		(at 132.08 158.75 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33234c8f-4364-4c13-8aba-dc2bb46a94f7")
 	)
 	(label "RO"
 		(at 274.32 45.72 180)
@@ -13005,7 +13035,7 @@
 		(uuid "d6105fd0-6d44-4904-a50a-1ed76096566b")
 	)
 	(label "5V"
-		(at 81.28 213.36 180)
+		(at 69.85 213.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17829,6 +17859,92 @@
 			(project "bluepillcarrier"
 				(path "/a1c59454-a06f-4e3a-accb-f295f4aa94b3"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 76.2 213.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a1a49e0-ecc8-4ab6-83b5-3825141ba704")
+		(property "Reference" "JP3"
+			(at 76.2 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB pwr"
+			(at 76.2 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 76.2 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 76.2 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 76.2 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5360898"
+			(at 76.2 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9436b182-2d8f-4e4c-9867-9bfcf92b3d2e")
+		)
+		(pin "2"
+			(uuid "965b91b9-3763-4fc5-aa97-9583f33f5af5")
+		)
+		(instances
+			(project "bluepillcarrier"
+				(path "/a1c59454-a06f-4e3a-accb-f295f4aa94b3"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
