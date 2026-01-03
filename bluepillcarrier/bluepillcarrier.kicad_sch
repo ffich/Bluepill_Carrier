@@ -13425,7 +13425,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 60.325 128.2699 0)
 			(effects
 				(font
@@ -13460,7 +13460,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 58.42 127 0)
 			(effects
 				(font
@@ -13639,7 +13639,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 108.585 128.2699 0)
 			(effects
 				(font
@@ -13674,7 +13674,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 106.68 127 0)
 			(effects
 				(font
@@ -16050,7 +16050,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 93.345 128.2699 0)
 			(effects
 				(font
@@ -16085,7 +16085,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 91.44 127 0)
 			(effects
 				(font
@@ -16137,7 +16137,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 295.275 129.5399 0)
 			(effects
 				(font
@@ -16172,7 +16172,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 293.37 128.27 0)
 			(effects
 				(font
@@ -18210,7 +18210,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RS485 Term"
+		(property "Value" "CAN Term"
 			(at 180.34 187.9599 90)
 			(effects
 				(font
@@ -19412,7 +19412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 76.835 128.2699 0)
 			(effects
 				(font
@@ -19447,7 +19447,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 74.93 127 0)
 			(effects
 				(font
@@ -19725,7 +19725,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 315.595 129.5399 0)
 			(effects
 				(font
@@ -19760,7 +19760,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 313.69 128.27 0)
 			(effects
 				(font
@@ -20308,7 +20308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 43.815 128.2699 0)
 			(effects
 				(font
@@ -20343,7 +20343,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 41.91 127 0)
 			(effects
 				(font
@@ -20761,7 +20761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 125.095 128.2699 0)
 			(effects
 				(font
@@ -20796,7 +20796,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 123.19 127 0)
 			(effects
 				(font
@@ -20848,7 +20848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 337.185 129.5399 0)
 			(effects
 				(font
@@ -20883,7 +20883,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 335.28 128.27 0)
 			(effects
 				(font
@@ -21777,7 +21777,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 273.685 129.5399 0)
 			(effects
 				(font
@@ -21812,7 +21812,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 271.78 128.27 0)
 			(effects
 				(font

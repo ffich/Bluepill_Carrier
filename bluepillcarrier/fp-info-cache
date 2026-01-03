@@ -1,4 +1,4 @@
-27525814843690592
+27545239240501998
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -109844,6 +109844,13 @@ Varistor VF
 2
 2
 bluepill
+MODULE_DM-OLED096-636
+
+
+0
+4
+4
+bluepill
 YAAJ_BlackPill_1
 BlackPill module with pin headers and sockets. No SWD breakout
 module BlackPill Black Pill header socket
@@ -109974,5 +109981,75 @@ MODULE_DM-OLED096-636
 
 
 0
-8
-8
+4
+4
+oled
+YAAJ_BlackPill_1
+BlackPill module with pin headers and sockets. No SWD breakout
+module BlackPill Black Pill header socket
+0
+34
+34
+oled
+YAAJ_BlackPill_2
+BlackPill module with pin headers / sockets. No SWD breakout
+module BlackPill Black Pill header
+0
+34
+34
+oled
+YAAJ_BlackPill_SWD_1
+BlackPill module with pin headers / sockets. SWD broken out to PCB.
+module BlackPill Black Pill header SWD breakout
+0
+38
+38
+oled
+YAAJ_BlackPill_SWD_2
+BlackPill module with pin headers / sockets. SWD broken out to PCB.
+module BlackPill Black Pill header SWD breakout
+0
+38
+38
+oled
+YAAJ_BluePill_1
+Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
+module BlluePill Blue Pill header SWD breakout
+0
+40
+40
+oled
+YAAJ_BluePill_2
+Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
+module BlluePill Blue Pill header SWD breakout
+0
+40
+40
+oled
+YAAJ_BluePill_SWD_1
+Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
+module BlluePill Blue Pill header SWD breakout
+0
+44
+44
+oled
+YAAJ_BluePill_SWD_2
+Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
+module BlluePill Blue Pill header SWD breakout
+0
+44
+44
+oled
+YAAJ_WeAct_BlackPill_2
+Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
+module BlluePill Blue Pill header SWD breakout
+0
+40
+40
+oled
+YAAJ_WeAct_BlackPill_SWD_2
+Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
+module BlluePill Blue Pill header SWD breakout
+0
+44
+44
