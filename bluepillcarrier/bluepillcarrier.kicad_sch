@@ -3888,7 +3888,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_EEPROM:25LCxxx"
+		(symbol "Memory_EEPROM:M95256-WMN6P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3900,7 +3900,7 @@
 					)
 				)
 			)
-			(property "Value" "25LCxxx"
+			(property "Value" "M95256-WMN6P"
 				(at 2.54 -6.35 0)
 				(effects
 					(font
@@ -3909,7 +3909,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3918,7 +3918,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf"
+			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/9d/75/f0/3e/76/00/4c/0b/CD00103810.pdf/files/CD00103810.pdf/jcr:content/translations/en.CD00103810.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3927,7 +3927,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SPI Serial EEPROM, DIP-8/SOIC-8/TSSOP-8"
+			(property "Description" "SPI EEPROM, 256Kb (32K x 8), No Identification Page, 2.5 to 5.5V, SO8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3936,7 +3936,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "EEPROM memory SPI serial"
+			(property "ki_keywords" "SPI EEPROM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3945,7 +3945,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm* TSSOP*4.4x3mm*P0.65mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3954,7 +3954,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "25LCxxx_1_1"
+			(symbol "M95256-WMN6P_1_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -3969,7 +3969,7 @@
 				(pin input line
 					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "~{WP}"
+					(name "~{W}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4005,7 +4005,7 @@
 				(pin input line
 					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "~{CS}"
+					(name "~{S}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4041,7 +4041,7 @@
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
-					(name "GND"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4059,7 +4059,7 @@
 				(pin input line
 					(at 10.16 2.54 180)
 					(length 2.54)
-					(name "SCK"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4077,7 +4077,7 @@
 				(pin input line
 					(at 10.16 0 180)
 					(length 2.54)
-					(name "MOSI"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4092,10 +4092,10 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin output line
 					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "MISO"
+					(name "Q"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12204,7 +12204,7 @@
 		)
 		(uuid "0bf0f1ce-77a8-4466-86d1-9046e6ba2c7b")
 	)
-	(label "RX1"
+	(label "RX3"
 		(at 373.38 80.01 180)
 		(effects
 			(font
@@ -12374,7 +12374,7 @@
 		)
 		(uuid "3599fbeb-31a1-428e-a363-89c860f803bd")
 	)
-	(label "RX3"
+	(label "RX1"
 		(at 29.21 219.71 180)
 		(effects
 			(font
@@ -12604,7 +12604,7 @@
 		)
 		(uuid "683ab7a8-a6fe-4f97-93f1-b8bbb7f151bf")
 	)
-	(label "TX3"
+	(label "TX1"
 		(at 29.21 222.25 180)
 		(effects
 			(font
@@ -13234,7 +13234,7 @@
 		)
 		(uuid "fa2c7ad6-c8de-4d42-bc7b-6fb81f0486be")
 	)
-	(label "TX1"
+	(label "TX3"
 		(at 373.38 86.36 180)
 		(effects
 			(font
@@ -15242,103 +15242,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_EEPROM:25LCxxx")
-		(at 177.8 229.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40a46281-f758-435a-9221-d448b7df2f75")
-		(property "Reference" "U4"
-			(at 179.9433 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "25LCxxx"
-			(at 179.9433 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 177.8 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf"
-			(at 177.8 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SPI Serial EEPROM, DIP-8/SOIC-8/TSSOP-8"
-			(at 177.8 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84670"
-			(at 177.8 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "933f99d1-feef-4744-afea-ab204d568c0b")
-		)
-		(pin "8"
-			(uuid "1ec67718-826f-41e0-bcb6-1227413665b2")
-		)
-		(pin "7"
-			(uuid "7b41aef6-fcf6-409d-b3c7-1edb54b89eb9")
-		)
-		(pin "3"
-			(uuid "7aecfb4c-d725-4c42-a5ee-93208fbba77e")
-		)
-		(pin "5"
-			(uuid "489ba81c-868b-4a79-be1a-c0a404a72eb4")
-		)
-		(pin "6"
-			(uuid "cea54cc8-af9f-42e9-a972-59e75e45ac54")
-		)
-		(pin "1"
-			(uuid "5ee3d0d6-ee32-460c-a9f8-c9c17944cd4c")
-		)
-		(pin "2"
-			(uuid "9ed440dc-4dfe-45f5-98d6-b9d4b94acf57")
-		)
-		(instances
-			(project "bluepillcarrier"
-				(path "/a1c59454-a06f-4e3a-accb-f295f4aa94b3"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 200.66 209.55 0)
 		(unit 1)
@@ -16975,7 +16878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oled:MODULE_DM-OLED096-636"
+		(property "Footprint" "bluepill:MODULE_DM-OLED096-636"
 			(at 200.66 121.92 0)
 			(effects
 				(font
@@ -21066,6 +20969,103 @@
 			(project ""
 				(path "/a1c59454-a06f-4e3a-accb-f295f4aa94b3"
 					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_EEPROM:M95256-WMN6P")
+		(at 177.8 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e13c4780-0855-48a6-814a-ac00bc9d98fc")
+		(property "Reference" "U2"
+			(at 179.9433 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M95512-WMN6TP"
+			(at 179.9433 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 177.8 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/9d/75/f0/3e/76/00/4c/0b/CD00103810.pdf/files/CD00103810.pdf/jcr:content/translations/en.CD00103810.pdf"
+			(at 177.8 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SPI EEPROM, 512Kb (32K x 8), No Identification Page, 2.5 to 5.5V, SO8"
+			(at 177.8 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7567"
+			(at 177.8 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "3543d5a2-490f-43d7-a94c-476e0ab4e661")
+		)
+		(pin "5"
+			(uuid "b4d205c4-68fa-400e-a035-c8490514f55d")
+		)
+		(pin "3"
+			(uuid "aac7dde9-7028-45c8-b1e5-5e9bdd64c735")
+		)
+		(pin "4"
+			(uuid "49f6bcbd-8416-4681-a1bd-42da1ee7c2b7")
+		)
+		(pin "7"
+			(uuid "9ac24a22-212d-407b-9c00-2d375bdfe51f")
+		)
+		(pin "2"
+			(uuid "833e80ff-ceb3-41c5-aac1-87afafbf3423")
+		)
+		(pin "1"
+			(uuid "c66d04e4-b02b-42ca-b3e8-9cda8560c8c0")
+		)
+		(pin "6"
+			(uuid "3ee2abef-ecac-4f26-8e5f-f62958315797")
+		)
+		(instances
+			(project "bluepillcarrier"
+				(path "/a1c59454-a06f-4e3a-accb-f295f4aa94b3"
+					(reference "U2")
 					(unit 1)
 				)
 			)
