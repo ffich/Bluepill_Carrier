@@ -12225,7 +12225,7 @@
 		(uuid "0e19d566-d555-44c8-8c36-d693f0d67864")
 	)
 	(label "TX3"
-		(at 335.28 109.22 0)
+		(at 335.28 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12435,6 +12435,16 @@
 		(uuid "44158719-de57-4c9e-abb3-e27c56d5996c")
 	)
 	(label "3V3"
+		(at 293.37 109.22 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "449af519-0917-4b89-91b6-8d32897fb376")
+	)
+	(label "3V3"
 		(at 153.67 212.09 90)
 		(effects
 			(font
@@ -12505,7 +12515,7 @@
 		(uuid "50c61368-7df5-4b31-af5a-a263c099ec28")
 	)
 	(label "TX1"
-		(at 293.37 109.22 0)
+		(at 293.37 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12545,6 +12555,16 @@
 		(uuid "57033967-7e39-4dc7-8e5e-6906eca9a1f3")
 	)
 	(label "3V3"
+		(at 271.78 109.22 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59ac7e55-64cb-4ba9-91e5-0251bf303e88")
+	)
+	(label "3V3"
 		(at 327.66 168.91 180)
 		(effects
 			(font
@@ -12565,7 +12585,7 @@
 		(uuid "5f5b309f-d75c-4a6c-b3a2-19613e632d0e")
 	)
 	(label "RX1"
-		(at 271.78 109.22 0)
+		(at 271.78 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12755,7 +12775,7 @@
 		(uuid "87bb25d4-5180-495a-a62c-79b4f280251d")
 	)
 	(label "RX3"
-		(at 313.69 109.22 0)
+		(at 313.69 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12793,6 +12813,16 @@
 			(justify right bottom)
 		)
 		(uuid "93f848a7-7321-4655-ae5a-fd0b29962ba2")
+	)
+	(label "3V3"
+		(at 313.69 109.22 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "952c8566-e859-46a4-8418-b5e84d1c5e7f")
 	)
 	(label "3V3"
 		(at 162.56 212.09 90)
@@ -12853,6 +12883,16 @@
 			(justify right bottom)
 		)
 		(uuid "a08063cf-e045-4be5-ba7d-7b0a522684a3")
+	)
+	(label "3V3"
+		(at 335.28 109.22 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3a356e1-ca42-4916-8385-a30be93bfbdf")
 	)
 	(label "SDA1"
 		(at 359.41 172.72 180)
@@ -14369,70 +14409,6 @@
 			(project "bluepillcarrier"
 				(path "/a1c59454-a06f-4e3a-accb-f295f4aa94b3"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 293.37 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20a7eb75-a08a-4f63-8b90-985bb2fa4f96")
-		(property "Reference" "#PWR035"
-			(at 293.37 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 293.37 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 293.37 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 293.37 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8cac8c64-76f7-41c0-8325-c29ad620ef9f")
-		)
-		(instances
-			(project "bluepillcarrier"
-				(path "/a1c59454-a06f-4e3a-accb-f295f4aa94b3"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -17462,7 +17438,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12624"
+		(property "LCSC" "C2288"
 			(at 271.78 116.84 90)
 			(effects
 				(font
@@ -17698,70 +17674,6 @@
 			(project "bluepillcarrier"
 				(path "/a1c59454-a06f-4e3a-accb-f295f4aa94b3"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 335.28 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88c4f043-a3ad-4e58-8c60-10852a7929bb")
-		(property "Reference" "#PWR041"
-			(at 335.28 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 335.28 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 335.28 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 335.28 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 335.28 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e588f14a-3b90-49c4-9f99-e85a49b4c2b5")
-		)
-		(instances
-			(project "bluepillcarrier"
-				(path "/a1c59454-a06f-4e3a-accb-f295f4aa94b3"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -18591,7 +18503,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12624"
+		(property "LCSC" "C2288"
 			(at 293.37 116.84 90)
 			(effects
 				(font
@@ -19521,7 +19433,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12624"
+		(property "LCSC" "C2288"
 			(at 335.28 116.84 90)
 			(effects
 				(font
@@ -20290,70 +20202,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9b529ad-4205-4cbc-828d-4d2b2473d0d9")
-		(property "Reference" "#PWR032"
-			(at 271.78 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 271.78 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 271.78 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "803b043f-e7dc-40d7-a7cd-0b83a0f77bf0")
-		)
-		(instances
-			(project "bluepillcarrier"
-				(path "/a1c59454-a06f-4e3a-accb-f295f4aa94b3"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 49.53 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20470,7 +20318,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12624"
+		(property "LCSC" "C2288"
 			(at 313.69 116.84 90)
 			(effects
 				(font
@@ -21364,70 +21212,6 @@
 			(project "bluepillcarrier"
 				(path "/a1c59454-a06f-4e3a-accb-f295f4aa94b3"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 313.69 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "edda56c0-19bd-4fe8-bc81-ee7e65b86ae7")
-		(property "Reference" "#PWR040"
-			(at 313.69 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 313.69 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 313.69 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 313.69 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58ed5fe0-9c9a-41bc-a433-377317db6c8c")
-		)
-		(instances
-			(project "bluepillcarrier"
-				(path "/a1c59454-a06f-4e3a-accb-f295f4aa94b3"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
