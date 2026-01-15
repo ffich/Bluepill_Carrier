@@ -2207,7 +2207,7 @@
 			(uuid "7d79bc29-99de-4998-8b5b-728b39bbdd9c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.step"
+		(model "${KIPRJMOD}/3d/PTS810 Series SJS 250.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15623,7 +15623,7 @@
 			(uuid "ab2f5688-f480-4d07-ade3-7546c54ddeb2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.step"
+		(model "${KIPRJMOD}/3d/PTS810 Series SJS 250.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28232,7 +28232,7 @@
 			(uuid "06757800-2cad-4e64-be9b-30be900a8c68")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/JEITA_SOIC-8_3.9x4.9mm_P1.27mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32094,7 +32094,7 @@
 			(uuid "e9e2e5a1-7cd5-464a-8a69-5beed8345283")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.step"
+		(model "${KIPRJMOD}/3d/PTS810 Series SJS 250.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34015,7 +34015,7 @@
 			(uuid "89c1e92b-b342-44cb-bbd6-f5fc403e8d85")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.step"
+		(model "${KIPRJMOD}/3d/PTS810 Series SJS 250.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
