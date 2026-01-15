@@ -28232,11 +28232,7 @@
 			(uuid "06757800-2cad-4e64-be9b-30be900a8c68")
 		)
 		(embedded_fonts no)
-<<<<<<< HEAD
 		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm.step"
-=======
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.step"
->>>>>>> 07a314f468e6548adcdea821710e4352cf8322e2
 			(offset
 				(xyz 0 0 0)
 			)
