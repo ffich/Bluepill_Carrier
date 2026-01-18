@@ -7377,7 +7377,7 @@
 		)
 		(uuid "ca73c843-9ed7-42c6-92cd-baf9c660acbd")
 	)
-	(text "Slave Address: 0x60"
+	(text "Slave Address: 0x3C"
 		(exclude_from_sim no)
 		(at 187.452 142.24 0)
 		(effects
