@@ -9,25 +9,29 @@ The goal of this board is to provide a **feature-rich development platform** wit
 ## ✨ Key Features
 
 ### On-board Peripherals
-- 10 × Status / debug LEDs  
+- 14 × Status / debug LEDs  
 - 3 × User buttons  
 - 1 × Wake-up button  
 - 1 × Analog potentiometer  
-- Buzzer  
-- **LM35** temperature sensor  
+- **TMP102** I2C temperature sensor  
 - **I²C OLED** display  
 - **SPI EEPROM**  
-- **USB / Serial** interface  
+
 
 ### Communications
-- **CAN bus** via **TJA1051T3** transceiver  
-- **RS-485** interface with dedicated transceiver  
+- **CAN bus TJA1051T3** transceiver
+- **LIN Bus TJA1029T** transceiver (Configurable Master/Slave)
+- **RS-485** interface with dedicated transceiver
+- **USB / Serial** interface
+
+### Security
+- **Microchip ATECC608C** Cryptographic coprocessor
 
 ### Expansion Sockets
-- External **RTC** socket  
+- External **DS3231 RTC Breakout** socket  
 - **BME280** environmental sensor socket  
 
-<img width="680" height="554" alt="image" src="https://github.com/user-attachments/assets/5a18391b-f6b6-4159-a3b6-addf1fd4a2d9" />
+<img width="811" height="689" alt="image" src="https://github.com/user-attachments/assets/300a8b3b-801f-46ca-8db9-fd5a6e5ec751" />
 
 ---
 
@@ -36,10 +40,10 @@ The goal of this board is to provide a **feature-rich development platform** wit
 - Built for **experimentation, prototyping, and hardware/software testing**
 - Well suited for:
   - Embedded development
-  - Industrial communications (CAN, RS-485)
+  - Industrial and automotive communications (CAN, LIN, RS-485)
   - Sensor integration
   - Industrial and IoT applications
-- No dependency on proprietary shields
+  - Cybersecurity
 
 ---
 
