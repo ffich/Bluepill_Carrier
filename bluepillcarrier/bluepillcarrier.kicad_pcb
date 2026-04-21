@@ -15045,12 +15045,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C40877"
+		(property "LCSC" "C2832269"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3b75abdb-576e-40af-8f71-27fd7a234d9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d205494-7443-41ce-abce-702cab90280d")
 			(effects
 				(font
 					(size 1 1)
